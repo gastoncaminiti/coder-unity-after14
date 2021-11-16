@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ItemController : MonoBehaviour
 {
+    //ENFOQUE POCO EFECTIVO SIN SINGLETON
+    [SerializeField] private GiftsManager GiftsManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +17,13 @@ public class ItemController : MonoBehaviour
     {
         
     }
+
+    private void OnMouseDown()
+    {
+        Debug.Log("CLICKED "+gameObject.name);
+        GiftsManager.AddGift(gameObject);
+        GiftsManager.AddDictionary(gameObject.name, gameObject);
+        gameObject.SetActive(false);
+    }
+    
 }

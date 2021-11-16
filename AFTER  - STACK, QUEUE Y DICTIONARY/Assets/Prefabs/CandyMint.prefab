@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9091861658427606829}
   - component: {fileID: 6469490443649463271}
   - component: {fileID: 5623213530827206497}
+  - component: {fileID: 7560134045516107025}
   m_Layer: 0
   m_Name: CandyMint
   m_TagString: Untagged
@@ -95,3 +96,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc0cd283826dd64f86dbb62236c20ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &7560134045516107025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4812310847888888370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.138294, y: 0.25369298, z: 0.039899997}
+  m_Center: {x: 0, y: 0.12684649, z: 0}

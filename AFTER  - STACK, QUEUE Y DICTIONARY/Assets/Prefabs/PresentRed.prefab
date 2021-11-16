@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4509654128597227141}
   - component: {fileID: 1833375992974516815}
   - component: {fileID: 1058592621030227657}
+  - component: {fileID: 2782683576170500028}
   m_Layer: 0
   m_Name: PresentRed
   m_TagString: Untagged
@@ -96,6 +97,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc0cd283826dd64f86dbb62236c20ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &2782683576170500028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176073252510499738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4788, y: 0.3, z: 0.35943675}
+  m_Center: {x: 0, y: 0.085683994, z: 0.010317902}
 --- !u!1 &7566502869546226356
 GameObject:
   m_ObjectHideFlags: 0
